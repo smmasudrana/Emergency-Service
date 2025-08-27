@@ -1,14 +1,32 @@
-## Create Readme
+# answer to question number: 1;
 
-You have to create a `Readme.md` file. and write down following questions. Dont Try to copy paste from AI Tools. Just write what you know about these. If you don't know , then search , learn , understand and then write.
+* getElementById → নির্দিষ্ট ID দিয়ে একটি এলিমেন্ট খুঁজে আনে, id সাধারণত একটাই হয়।
 
-### 6. Answer the following questions clearly:
+* getElementsByClassName → একই নামে যত class আছে সবগুলোকে খুঁজে ধরে আনে।
 
-1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
-2. How do you **create and insert a new element into the DOM**?
-3. What is **Event Bubbling** and how does it work?
-4. What is **Event Delegation** in JavaScript? Why is it useful?
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
+* querySelector → যদি এলিমেন্টটি CSS সিলেক্টরের সাথে মেলে তাহলে শুধু প্রথমটাকে খুঁজে আনে।
 
----
+* querySelectorAll →যদি এলিমেন্টটি CSS সিলেক্টরের সাথে মেলে তাহলে সব এলিমেন্ট খুঁজে আনে।
 
+
+# answer to question number: 2;
+
+* document.createElement() দিয়ে এলিমেন্ট তৈরি করতে হয়, যেমন লিস্ট আইটেম বা ডিভ।
+
+* innerText বা innerHTML দিয়ে কন্টেন্ট একছেছ করে পরিবর্তন করা যায়।
+
+* setAttribute() বা .style ব্যবহার করে অ্যাট্রিবিউট বা স্টাইল সেট করা যায়।
+
+* appendChild() দিয়ে কোন চাইল্ডকে যেমন li আইটেমকে প্যারেন্ট ul এর মদ্ধে দেওয়া যায় । append() দিয়ে পুরো একটা সেকশনকে ঢুকানো যায়।
+
+# answer to question number: 3;
+
+* ইভেন্ট বাবলিং হলো এমন একটি প্রক্রিয়া যেখানে কোনো চাইল্ড এলিমেন্টে ইভেন্ট ঘটলে সেই ইভেন্টটি ধাপে ধাপে প্যারেন্ট এলিমেন্ট পর্যন্ত উপরে উঠে যায়।
+
+# answer to question number: 4;
+* ইভেন্ট ডেলিগেশন হলো এমন একটি টেকনিক যেখানে একটি প্যারেন্ট এলিমেন্টে একবার ইভেন্ট লিসেনার যোগ করে তার সকল চাইল্ড এলিমেন্টের ইভেন্ট হ্যান্ডেল করা হয়।
+
+# answer to question number: 5;
+* preventDefault() → কোনো এলিমেন্টের ডিফল্ট আচরণ বন্ধ করে দেয়, যেমন বার বার লোড অফ করতে পারি।
+
+* stopPropagation() → ইভেন্টকে প্যারেন্ট এলিমেন্টে বাবলিং হওয়া থেকে আটকায় মানে আর বাবলিং হয়ে উপরে উঠে না।
