@@ -27,7 +27,7 @@
                 <img src="./assets/logo.png" class="w-11" alt="">
                 <p class="text-[#006747] font-bold ">Emergency<br>Service</p>
             </div>
-            <div class="right flex items-center gap-4">
+            <div class="right grid grid-cols-1 md:grid-cols-3 items-center gap-1.5 md:gap-4">
                 <div
                     class="heart flex gap-3 items-center bg-[#ecfff0] rounded-2xl px-3.5 py-1 text-black font-semibold">
                     <span id="heart-number">0</span> <img src="./assets/heart.png" class="w-5" alt="">
@@ -36,7 +36,7 @@
                     <span id="coin-number">100</span><img src="./assets/coin.png" class="w-5" alt="">
                 </div>
                 <div class="copy flex gap-3 items-center bg-[#00a63e] rounded-2xl px-3.5 py-1 text-white"><span
-                        id="copy-number">2</span>Copy</div>
+                        id="copy-number">0</span>Copy</div>
             </div>
         </nav>
 
@@ -52,8 +52,8 @@
 
     <!-- main section  -->
     <main class="py-5 md:py-10 bg-[#f5fff6]">
-        <div class="main-section max-w-[1280px] w-full mx-auto p-3 grid grid-rows-1 md:grid-cols-12 gap-6">
-            <div class="cards-section grid col-span-9 grid-rows-1 md:grid-cols-3 gap-4 ">
+        <div class="main-section max-w-[1280px] w-full mx-auto p-3 grid grid-cols-1 md:grid-cols-12 gap-6">
+            <div class="cards-section grid w-full col-span-full md:col-span-9 md:grid-cols-3 gap-4 ">
                 <!-- card 1 -->
                 <div class="card p-3 bg-white rounded-lg shadow-lg shadow-gray-200">
                     <div class="icon-div flex justify-between items-center">
@@ -210,7 +210,7 @@
                 </div>
 
             </div>
-            <aside id="side-bar" class="w-full md:col-span-3 p-3 bg-white rounded-lg">
+            <aside id="side-bar" class="w-full col-span-full md:col-span-3 p-3 bg-white rounded-lg">
                 <!-- history and clear button  -->
                 <div class="flex justify-between items-center mb-5">
                     <p class="w-full font-semibold"><i class="fa-solid fa-clock text-gray-400"></i> Call history</p>
