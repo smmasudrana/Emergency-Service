@@ -2,7 +2,9 @@
     background-color: black;
     color: white;
 }
-
 .call-btn:hover{
+    background-color: gray;
+}
+#clear-btn:hover{
     background-color: gray;
 }
